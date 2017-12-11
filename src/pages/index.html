@@ -1,55 +1,107 @@
 ---
 layout: index-layout
-subject: My Email Templates
+subject: Factura Maestrik
 ---
 
-<spacer size="16"></spacer>
-
 <container>
-
-  <spacer size="24"></spacer>
-  
   <row>
-    <columns small="12">
-
-    <p class="lead">Hi there!</p>
-    <p style="color: #484848; line-height: 1.5;">Thanks for downloading <a href="http://foundation.zurb.com/emails/docs/">Foundation for Emails!</a> Your days of coding up painful HTML emails are officially over. You’ll soon be cranking out some slick, responsive emails in no time! To help get you up and running, we've put together 11 templates for the most common email use cases including newsletters, transactional emails, and marketing blasts. Feel free to customize them to your hearts content.</p>
-
-    <spacer size="16"></spacer>
-
-    <center>
-      <menu class="vertical">
-        <item href="{{root}}basic.html" target="_blank">Basic Template</item>
-        <item href="{{root}}drip.html" target="_blank">Drip Template</item>
-        <item href="{{root}}hero.html" target="_blank">Hero Template</item>
-        <item href="{{root}}marketing.html" target="_blank">Marketing Template</item>
-        <item href="{{root}}newsletter.html" target="_blank">Newsletter Template</item>
-        <item href="{{root}}newsletter-2.html" target="_blank">Newsletter 2 Template</item>
-        <item href="{{root}}order.html" target="_blank">Order Template</item>
-        <item href="{{root}}password.html" target="_blank">Password Template</item>
-        <item href="{{root}}sidebar.html" target="_blank">Sidebar Template</item>
-        <item href="{{root}}sidebar-hero.html" target="_blank">Sidebar Hero Template</item>
-        <item href="{{root}}welcome.html" target="_blank">Welcome Template</item>
-      </menu>
-    </center>
-
-    <spacer size="16"></spacer>
-
-    <p>Happy Coding,</p>
-    <p>The Foundation Team</p>
-
-
-    <spacer size="16"></spacer>
-
-    </columns>
+    <spacer class="header" size="70"></spacer>
+    <spacer class="header-line" size="10"></spacer>
+    <spacer size="20"></spacer>
+    <row>
+      <columns valign="middle">
+        <img class="logo" src="{{root}}assets/img/logo.png" alt="">
+      </columns>
+      <columns valign="middle">
+        <div>
+          <p class="text-right darkgrey-text">Maestrik S.A.S, NIT 901.089.208-6</p>
+          <p class="text-right grey-text">Factura #SI8DN4FF7B</p>
+        </div>
+      </columns>
+    </row>
+    <spacer class="header-line" size="1"></spacer>
+    <spacer size="20"></spacer>
+    <row>
+      <columns valign="middle">
+        <h1 class="money">$12.000 COP</h1>
+      </columns>
+      <columns valign="middle">
+        <p class="text-right light-darkgrey-text">5 de octubre del 2017</p>
+      </columns>
+    </row>
+    <row>
+      <columns>
+        <p>
+          Camila, gracias por elegir Maestrik para obtener nuevos conocimientos.
+        </p>
+      </columns>
+    </row>
+    <spacer class="body-line" size="1"></spacer>
+    <spacer size="20"></spacer>
+    <row>
+      <columns class="text-left">
+        <p>Tu Maestrik: <b>Marcos Suárez</b></p>
+        <p>Horas de clase: <b>Una hora</b></p>
+      </columns>
+      <columns>
+        <p class="text-right">Inicio de tutoría: <b>7:00 P.M</b></p>
+        <p class="text-right">Finalización: <b>8:00 P.M</b></p>
+      </columns>
+    </row>
+    <spacer class="body-line" size="1"></spacer>
+    <spacer size="20"></spacer>
+    <row>
+      <columns>
+        <p>
+          Ingreso para tercero:
+          <span class="highlighted-text-1">Marcos Suárez</span> (Maestrik)
+        </p>
+        <spacer size="20"></spacer>
+        <row>
+          <columns class="padding-bottom-0">
+            <p>Tarifa base:</p>
+          </columns>
+          <columns class="padding-bottom-0">
+            <h5 class="money-2 text-right">$12.000</h5>
+          </columns>
+        </row>
+        <row>
+          <columns class="padding-bottom-0">
+            <p>Impuestos:</p>
+          </columns>
+          <columns class="padding-bottom-0">
+            <h5 class="money-2 text-right">$0</h5>
+          </columns>
+        </row>
+        <row>
+          <columns class="padding-bottom-0">
+            <p>Valor total de la tutoría:</p>
+          </columns>
+          <columns class="padding-bottom-0">
+            <h4 class="money-3 text-right">$12.000</h4>
+          </columns>
+        </row>
+      </columns>
+    </row>
+    <spacer class="body-line" size="1"></spacer>
+    <spacer size="20"></spacer>
+    <row>
+      <columns>
+        <p class="text-center highlighted-text-2">¿Necesitas más información?</p>
+        <p class="text-center darkgrey-text">Contáctanos a través de nuestro canal de información:</p>
+        <p class="text-center">
+          <a href="mailto:servicioalcliente@maestrik.co">servicioalcliente@maestrik.co</a>
+        </p>
+      </columns>
+    </row>
+    <row class="footer">
+      <columns valign="middle">
+        <spacer size="20"></spacer>
+        <p class="text-center footer-text-bold">Maestrik S.A.S</p>
+        <p class="text-center footer-text">+57 1 6386011</p>
+        <p class="text-center footer-text">Carrera 18 # 86ª - 14</p>
+        <p class="text-center footer-text">Bogotá - Colombia</p>
+      </columns>
+    </row>
   </row>
 </container>
-
-<spacer size="16"></spacer>
-
-<center>
-  <small>Keep on keepin' on. &lt;3 <a style="color: #cacaca; text-decoration: underline;" href="http://zurb.com/">ZURB</a> </small>
-</center>
-
-<spacer size="16"></spacer>
-

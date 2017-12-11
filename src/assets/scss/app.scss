@@ -2,3 +2,85 @@
 @import 'foundation-emails';
 
 @import 'template/template';
+
+$teacherColor: #F26A00;
+$studentColor: #05A290;
+$studentColor2: #1FAC9B;
+
+
+.header {
+  background-color: $studentColor2;
+}
+
+.header-line {
+ background-color: $teacherColor;
+}
+
+.body-line {
+  background-color: $studentColor2;
+}
+
+.logo {
+  max-width: 200px
+}
+
+.grey-text {
+  font-weight: bold;
+  color: darkgrey;
+}
+
+.darkgrey-text {
+  color: darkgrey;
+  margin-bottom: 0;
+}
+
+.light-darkgrey-text {
+  color: darkgrey;
+  font-weight: lighter;
+}
+
+.money {
+  font-family: monospace;
+  color: $teacherColor;
+}
+
+.money-2 {
+  font-family: monospace;
+  color: grey;
+}
+
+.money-3 {
+  font-family: monospace;
+  color: $studentColor2;
+}
+
+.highlighted-text-1 {
+  color: $teacherColor;
+  font-weight: bold;
+}
+
+.highlighted-text-2 {
+  color: gray;
+  font-weight: bold;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0 !important;
+}
+
+.footer {
+  background-color: transparentize(black, 0.3);
+}
+
+.footer-text {
+  color: white;
+  margin-bottom: 1px;
+  font-size: 12px;
+}
+
+.footer-text-bold {
+  color: white;
+  margin-bottom: 1px;
+  font-size: 14px;
+  font-weight: bold;
+}
